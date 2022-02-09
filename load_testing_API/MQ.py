@@ -6,8 +6,6 @@ import json
 class MarqetaAPI(object):
 
     def __init__(self):
-        self.username = "f2f9f87d-c8af-498c-9f09-4c1256371098gbhfggfh"
-        self.password = "c4c90ed8-b8b5-403b-aab0-f1a91e3f371dgghffdfgd"
         self.user_endpoint = "/users"
         self.url = "https://sandbox-api.marqeta.com/v3/users"
         self.base_url = "https://sandbox-api.marqeta.com/v3"
